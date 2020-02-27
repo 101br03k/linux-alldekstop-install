@@ -6,4 +6,4 @@ git clone https://github.com/101br03k/linux-gnome-easy-install
 
 cd linux-gnome-easy-install
 
-sudo ./script.sh
+sudo ./gnomeinstaller.sh
