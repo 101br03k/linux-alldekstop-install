@@ -1,17 +1,14 @@
 #!/bin/bash
-#
+#hash bang and location
 mirror
-#
 update
-#
 upall
-#
-sudo padman -Syyu
-#
+sudo pacman -Syyu
 git clone https://github.com/arcolinuxd/arco-gnome
-#
+#clones the codes needed for the gnome installation
 cd arco-gnome
-#
+#moves into the arco-gnomemap
+
 sudo ./000-use-all-cores-makepkg-conf-v4.sh
 sudo ./100-display-manager-and-desktop-v1.sh
 sudo ./110-install-sound-v3.sh
@@ -30,5 +27,7 @@ sudo ./700-installing-fonts-v2.sh
 sudo ./800-autologin-v3.sh
 sudo ./900-fix-microcode-error-v1.sh
 sudo ./910-fix-mouse-cursor-breeze-snow-v1.sh
+#runs all the codes you need
+
 sudo reboot
 #reboots the system
