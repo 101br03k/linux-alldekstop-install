@@ -2,8 +2,8 @@
 arcolinuxd gnome install script
 
 just do:
-git clone https://github.com/101br03k/arco-gnome-install-script
+git clone https://github.com/101br03k/linux-gnome-easy-install
 
-cd arco-gnome-install-script
+cd linux-gnome-easy-install
 
-sudo ./
+sudo ./script.sh
