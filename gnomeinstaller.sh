@@ -2,7 +2,7 @@
 
 mirror
 update
-y
+yes | update
 upall
 sudo pacman -Syyu
 git clone https://github.com/arcolinuxd/arco-gnome
