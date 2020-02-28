@@ -4,7 +4,7 @@ echo what is your username
 read username
 echo what is your password
 read password
-echo do you want to autologin (if you want this fill in your username, if not fil someting random in)
+echo "do you want to autologin (if you want this fill in your username, if not fil someting random in)"
 read autologin
 #username and password for automatic setting up a gnome account
 
