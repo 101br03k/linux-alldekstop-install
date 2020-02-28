@@ -1,0 +1,6 @@
+ask what username do you want
+read $username
+ask what do you want for password
+read $password
+ask do you want to autologin, if yes type username
+read $autologin
