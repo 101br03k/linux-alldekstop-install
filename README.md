@@ -9,4 +9,6 @@ Type in your linux terminal:
 
 2. cd linux-gnome-easy-install
 
-3. sudo ./gnomeinstaller.sh
+3. Chmod +x gnome-installer.sh
+
+4. sudo bash gnome-installer.sh
