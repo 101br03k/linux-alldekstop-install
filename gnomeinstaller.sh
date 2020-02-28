@@ -4,7 +4,6 @@ mirror
 update
 yes | update
 upall
-sudo pacman -Syyu
 git clone https://github.com/arcolinuxd/arco-gnome
 #clones the codes needed for the gnome installation
 cd arco-gnome
