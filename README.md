@@ -10,5 +10,6 @@ Type in your linux terminal:
 2. cd linux-gnome-easy-install
 
 3. Chmod u+x gnome-installer.sh
-
-4. sudo bash gnome-installer.sh
+4. pacman -S dos2unix
+5. dos2unix gnome-installer.sh
+6. sudo bash gnome-installer.sh
