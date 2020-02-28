@@ -38,7 +38,7 @@ sudo ./500-software-AUR-repo-distro-specific-v1.sh
 sudo ./600-software-from-ArcoLinux-repo-v1.sh
 sudo ./700-installing-fonts-v2.sh
 sudo ./800-autologin-v3.sh
-$username | sudo ./sudo ./800-autologin-v3.sh
+$autologin | sudo ./sudo ./800-autologin-v3.sh
 sudo ./900-fix-microcode-error-v1.sh
 sudo ./910-fix-mouse-cursor-breeze-snow-v1.sh
 #runs all the codes you need
