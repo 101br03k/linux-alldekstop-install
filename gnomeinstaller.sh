@@ -1,5 +1,5 @@
-#!/bin/bash
-#hash bang and location
+#! /bin/sh
+
 mirror
 update
 y
