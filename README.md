@@ -7,7 +7,7 @@ How to use:
 Type in your linux terminal: 
 1. git clone https://github.com/101br03k/linux-gnome-install
 
-2. cd linux-gnome-easy-install
+2. cd linux-gnome-install
 
 3. Chmod u+x gnome-installer.sh
 4. pacman -S dos2unix
