@@ -1,5 +1,5 @@
 # gnome linux install script
-# still in development (doesnt work at the moment)
+# still in development (beta, still developing)
 arcolinuxd gnome install script
 If you want to install gnome the easy way
 
