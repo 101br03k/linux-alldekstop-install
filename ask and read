@@ -1,6 +1,0 @@
-echo what username do you want
-read $username
-echo what do you want for password
-read $password
-echo do you want to autologin, if yes type username
-read $autologin
