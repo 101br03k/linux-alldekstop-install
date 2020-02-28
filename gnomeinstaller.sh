@@ -10,7 +10,9 @@ read autologin
 
 mirror
 yes | update
-#answers yes to proceed with update / installation
+$password | sudo mirror
+#answers yes to proceed with update / installation and automatic types in your password to proceed with instalation
+
 upall
 git clone https://github.com/arcolinuxd/arco-gnome
 #clones the codes needed for the gnome installation
@@ -24,6 +26,9 @@ sudo ./120-bluetooth-v2.sh
 sudo ./121-fix-bluetooth-switch-not-working-v1.sh
 sudo ./130-install-printers-v3.sh
 sudo ./140-install-samba-v3.sh
+$username | sudo ./140-install-samba-v3.sh
+$password | sudo ./140-install-samba-v3.sh
+$password | sudo ./140-install-samba-v3.sh
 sudo ./150-install-network-discovery-v4.sh
 sudo ./160-install-tlp-for-laptops-v1.sh
 sudo ./200-software-arch-linux-repo-v2.sh
@@ -33,6 +38,7 @@ sudo ./500-software-AUR-repo-distro-specific-v1.sh
 sudo ./600-software-from-ArcoLinux-repo-v1.sh
 sudo ./700-installing-fonts-v2.sh
 sudo ./800-autologin-v3.sh
+$username | sudo ./sudo ./800-autologin-v3.sh
 sudo ./900-fix-microcode-error-v1.sh
 sudo ./910-fix-mouse-cursor-breeze-snow-v1.sh
 #runs all the codes you need
