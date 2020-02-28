@@ -2,6 +2,7 @@
 
 mirror
 yes | update
+#answers yes to proceed with update / installation
 upall
 git clone https://github.com/arcolinuxd/arco-gnome
 #clones the codes needed for the gnome installation
