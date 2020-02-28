@@ -1,7 +1,6 @@
 #!/bin/sh
 
 mirror
-update
 yes | update
 upall
 git clone https://github.com/arcolinuxd/arco-gnome
