@@ -2,6 +2,7 @@
 #hash bang and location
 mirror
 update
+y
 upall
 sudo pacman -Syyu
 git clone https://github.com/arcolinuxd/arco-gnome
