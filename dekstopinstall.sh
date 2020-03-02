@@ -1,5 +1,6 @@
 #!/bin/sh
-
+echo welcome to my script, please choose wich dekstop you want to install, you can choose between: 1) gnome, 2) plasma, 3) budgie
+read dekstop
 echo what is your username
 read username
 echo what is your password
@@ -14,12 +15,21 @@ mirror
 yes | update
 yes $password | sudo mirror
 #answers yes to proceed with update / installation and automatic types in your password to proceed with instalation
-
 upall
+
+if (dekstop = 1 || dekstop = gnome || 1 gnome){
 git clone https://github.com/arcolinuxd/arco-gnome
 #clones the codes needed for the gnome installation
 cd arco-gnome
-#moves into the arco-gnomemap
+#moves into the arco-gnome map
+}
+else if (dekstop = 2 || dekstop = plasma || 2 plasma){
+git clone https://github.com/arcolinuxd/arco-plasma
+#clones the codes needed for the plasma installation
+cd arco-plasma
+#moves into the arco-plasma map
+}
+
 
 sudo ./000-use-all-cores-makepkg-conf-v4.sh
 sudo ./100-display-manager-and-desktop-v1.sh
@@ -46,6 +56,7 @@ echo "That's not a valid option, please choose yes or no";
 sudo ./900-fix-microcode-error-v1.sh
 sudo ./910-fix-mouse-cursor-breeze-snow-v1.sh
 #runs all the codes you need
+
 
 sudo reboot
 #reboots the system
