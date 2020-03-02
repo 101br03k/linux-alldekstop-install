@@ -1,8 +1,8 @@
-# gnome linux install script
-arcolinuxd gnome install script
-If you want to install gnome the easy way
+# all linux easy dekstop install script
+install script for all common linux dekstops
+If you want to install all dekstops the easy way
 
 
 How to use:
 Type in your linux terminal: 
-1. git clone https://github.com/101br03k/linux-gnome-install && cd linux-gnome-install && chmod u+x gnomeinstall.sh && sudo bash gnomeinstall.sh
+1. git clone https://github.com/101br03k/linux-dekstop-install && cd linux-dekstop-install && chmod u+x dekstopinstall.sh && sudo bash dekstopinstall.sh
