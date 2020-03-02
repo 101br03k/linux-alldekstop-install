@@ -42,7 +42,7 @@ if ($autologin = no || $autologin = No || $autologin = n) {
 } else if ($autologin = yes || $autologin = Yes || $autologin = y) {
 $username | sudo ./800-autologin-v3.sh
 } else {
-echo "That's not a valid options, please choose yes or no";
+echo "That's not a valid option, please choose yes or no";
 }
 sudo ./900-fix-microcode-error-v1.sh
 sudo ./910-fix-mouse-cursor-breeze-snow-v1.sh
