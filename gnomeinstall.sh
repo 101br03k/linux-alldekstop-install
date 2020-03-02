@@ -3,7 +3,9 @@
 echo what is your username
 read username
 echo what is your password
+stty -echo 
 read password
+stty echo
 echo "do you want to autologin (if you want to use autologin type yes, otherwise type no)"
 read autologin
 #username and password for automatic setting up a gnome account
