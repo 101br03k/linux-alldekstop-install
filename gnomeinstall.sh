@@ -12,7 +12,7 @@ read autologin
 
 mirror
 yes | update
-$password | sudo mirror
+yes $password | sudo mirror
 #answers yes to proceed with update / installation and automatic types in your password to proceed with instalation
 
 upall
@@ -27,10 +27,7 @@ sudo ./110-install-sound-v3.sh
 sudo ./120-bluetooth-v2.sh
 sudo ./121-fix-bluetooth-switch-not-working-v1.sh
 sudo ./130-install-printers-v3.sh
-sudo ./140-install-samba-v3.sh
-$username | sudo ./140-install-samba-v3.sh
-$password | sudo ./140-install-samba-v3.sh
-$password | sudo ./140-install-samba-v3.sh
+yes $password | yes $password | yes $username | ./140-install-samba-v3.sh
 sudo ./150-install-network-discovery-v4.sh
 sudo ./160-install-tlp-for-laptops-v1.sh
 sudo ./200-software-arch-linux-repo-v2.sh
