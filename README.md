@@ -1,4 +1,6 @@
 # all linux easy dekstop install script
+currently not working
+
 install script for all common linux dekstops
 If you want to install all dekstops the easy way
 
