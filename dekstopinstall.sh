@@ -1,5 +1,5 @@
 #!/bin/sh
-echo welcome to my script, please choose wich dekstop you want to install, you can choose between: 1) gnome, 2) plasma, 3) budgie
+echo "welcome to my script, please choose wich dekstop you want to install, you can choose between: 1) gnome, 2) plasma, 3) budgie"
 read dekstop
 echo what is your username
 read username
@@ -17,13 +17,13 @@ yes $password | sudo mirror
 #answers yes to proceed with update / installation and automatic types in your password to proceed with instalation
 upall
 
-if (dekstop = 1 || dekstop = gnome || 1 gnome){
+if ($dekstop = 1 || $dekstop = gnome || dekstop = 1 gnome){
 git clone https://github.com/arcolinuxd/arco-gnome
 #clones the codes needed for the gnome installation
 cd arco-gnome
 #moves into the arco-gnome map
 }
-else if (dekstop = 2 || dekstop = plasma || 2 plasma){
+else if ($dekstop = 2 || $dekstop = plasma || $dekstop = 2 plasma){
 git clone https://github.com/arcolinuxd/arco-plasma
 #clones the codes needed for the plasma installation
 cd arco-plasma
