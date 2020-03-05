@@ -19,15 +19,27 @@ upall
 
 if ($dekstop = 1 || $dekstop = gnome || dekstop = 1 gnome){
 git clone https://github.com/arcolinuxd/arco-gnome
-#clones the codes needed for the gnome installation
 cd arco-gnome
-#moves into the arco-gnome map
 }
 else if ($dekstop = 2 || $dekstop = plasma || $dekstop = 2 plasma){
 git clone https://github.com/arcolinuxd/arco-plasma
-#clones the codes needed for the plasma installation
 cd arco-plasma
-#moves into the arco-plasma map
+}
+else if ($dekstop = 3 || $dekstop = awasome || $dekstop = 3 awasome){
+git clone https://github.com/arcolinuxd/arco-awasome
+cd arco-plasma
+}
+else if ($dekstop = 4 || $dekstop = bspwm || $dekstop = 4 bspwm){
+git clone https://github.com/arcolinuxd/arco-bspwm
+cd arco-bspwm
+}
+else if ($dekstop = 5 || $dekstop = budgie || $dekstop = 5 bugie){
+git clone https://github.com/arcolinuxd/arco-budgie
+cd arco-budgie
+}
+else if ($dekstop = 7 || $dekstop = cinnamon || $dekstop = 6 cinnamon){
+git clone https://github.com/arcolinuxd/arco-awasome
+cd arco-plasma
 }
 
 
