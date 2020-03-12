@@ -6,7 +6,6 @@ read dekstop
 if ($dekstop = 1 || $dekstop = gnome || dekstop = 1 gnome){
 git clone https://github.com/arcolinuxd/arco-gnome
 cd arco-gnome
-./bash gnome
 }
 
 else if ($dekstop = 2 || $dekstop = plasma || $dekstop = 2 plasma){
