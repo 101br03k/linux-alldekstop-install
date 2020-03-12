@@ -14,6 +14,9 @@ yes $password | sudo mirror
 #answers yes to proceed with update / installation and automatic types in your password to proceed with instalation
 upall
 
+git clone https://github.com/arcolinuxd/arco-gnome
+cd arco-gnome
+
 sudo ./000-use-all-cores-makepkg-conf-v4.sh
 sudo ./100-display-manager-and-desktop-v1.sh
 sudo ./110-install-sound-v3.sh
