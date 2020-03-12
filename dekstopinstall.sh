@@ -16,7 +16,7 @@ cd arco-plasma
 
 else if ($dekstop = 3 || $dekstop = awasome || $dekstop = 3 awasome){
 git clone https://github.com/arcolinuxd/arco-awasome
-cd arco-plasma
+cd arco-awasome
 }
 
 else if ($dekstop = 4 || $dekstop = bspwm || $dekstop = 4 bspwm){
