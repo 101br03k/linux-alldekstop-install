@@ -4,6 +4,10 @@ echo "please type the name of the number of the dekstop you want to install"
 read dekstop
 
 if ($dekstop = 1 | $dekstop = gnome | $dekstop = 1 gnome)
-{
-sudo bash gnome.sh
-}
+{sudo bash gnome.sh}
+else if ($dekstop = 2 | $dekstop = plasma | $dekstop = 2 plasma)
+{sudo bash gnome.sh}
+else if ($dekstop = 3 | $dekstop = budgie | $dekstop = 3 budgie)
+{sudo bash gnome.sh}
+else if ($dekstop = 4 | $dekstop = bspwm | $dekstop = 4 bspwm)
+{sudo bash gnome.sh}
