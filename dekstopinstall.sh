@@ -3,7 +3,8 @@ echo "welcome to my script, please choose wich dekstop you want to install, you 
 read dekstop
 
 
-if ($dekstop = 1 || $dekstop = gnome || dekstop = 1 gnome){
+if ($dekstop = 1 || $dekstop = gnome || dekstop = 1 gnome)
+{
 git clone https://github.com/arcolinuxd/arco-gnome
 cd arco-gnome
 }
