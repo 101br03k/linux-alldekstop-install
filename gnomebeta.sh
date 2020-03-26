@@ -1,12 +1,5 @@
 echo what is your username
 read username
-echo what is your password
-stty -echo 
-read password
-stty echo
-echo "do you want to autologin (if you want to use autologin type yes, otherwise type no)"
-read autologin
-#username and password for automatic setting up a gnome account
 
 mirror 2> updatedebug.txt
 yes | update
@@ -33,12 +26,7 @@ sudo ./500-software-AUR-repo-distro-specific-v1.sh 2> gnomedebug.txt
 sudo ./600-software-from-ArcoLinux-repo-v1.sh 2> gnomedebug.txt
 sudo ./700-installing-fonts-v2.sh 2> gnomedebug.txt
 sudo ./800-autologin-v3.sh 2> gnomedebug.txt
-if ($autologin = no || $autologin = No || $autologin = n) {
-} else if ($autologin = yes || $autologin = Yes || $autologin = y) {
-$username | sudo ./800-autologin-v3.sh 2> gnomedebug.txt
-} else {
-echo "That's not a valid option, please choose yes or no";
-}
+sudo ./800-autologin-v3.sh 2> gnomedebug.txt
 sudo ./900-fix-microcode-error-v1.sh 2> gnomedebug.txt
 sudo ./910-fix-mouse-cursor-breeze-snow-v1.sh 2> gnomedebug.txt
 #runs all the codes you need 2> gnomedebug.txt
