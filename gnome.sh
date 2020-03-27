@@ -3,8 +3,8 @@ read username
 
 mirror
 yes | update
-yes $password | sudo mirror 
-#answers yes to proceed with update / installation and automatic types in your password to proceed with instalation
+yes | sudo mirror 
+#answers yes to proceed with update
 upall
 
 git clone https://github.com/arcolinuxd/arco-gnome 2> updatedebug.txt
