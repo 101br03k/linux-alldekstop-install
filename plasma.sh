@@ -30,5 +30,9 @@ sudo ./900-fix-microcode-error-v1.sh 2>> plasmadebug.txt
 sudo ./910-fix-mouse-cursor-breeze-snow-v1.sh 2>> plasmadebug.txt
 #runs all the codes you need and puts the terminal answer in a file per code
 
+echo "thx for installing"
+echo "if you read this you are very quick"
+
+
 sudo reboot
 #reboots the system
