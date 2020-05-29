@@ -7,4 +7,4 @@ If you want to install all dekstops the easy way
 
 How to use:
 Type in your linux terminal: 
-1. git clone https://github.com/101br03k/linux-alldekstop-install && cd linux-alldekstop-install && chmod u+x dekstopinstall.sh && sudo bash dekstopinstall.sh
+1. git clone https://github.com/101br03k/linux-alldekstop-install && cd linux-alldekstop-install && sudo bash dekstopinstall.sh
