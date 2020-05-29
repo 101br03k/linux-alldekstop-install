@@ -1,4 +1,4 @@
-# all linux easy dekstop install script
+# linux easy dekstop install script
 currently not working
 
 install script for all common linux dekstops
