@@ -8,6 +8,12 @@ yes | sudo mirror
 #answers yes to proceed with update
 upall
 
+echo"
+#################################
+## installation proces started ##
+#################################
+"
+
 git clone https://github.com/arcolinuxd/arco-deepin 2>> deepindebug.txt
 cd arco-deepin
 
@@ -28,8 +34,11 @@ sudo ./700-installing-fonts.sh 2>> deepindebug.txt
 sudo ./800-conky.sh 2>> deepindebug.txt
 #runs all the codes you need and puts the terminal answer in a file per code
 
-echo "thx for installing"
-echo "if you read this you are very quick"
+echo "
+########################
+## thx for installing ##
+########################
+"
 
 sudo reboot
 #reboots the system
