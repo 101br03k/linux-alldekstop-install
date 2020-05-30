@@ -16,7 +16,6 @@ sudo ./110-development-software.sh 2>> qtiledebug.txt
 sudo ./120-install-sound.sh 2>> qtiledebug.txt
 sudo ./130-bluetooth.sh 2>> qtiledebug.txt
 sudo ./140-printers.sh 2>> qtiledebug.txt
-sudo ./130-install-printers-v3.sh 2>> qtiledebug.txt
 yes $password | yes $password | yes $username | ./150-samba.sh 2>> qtiledebug.txt
 sudo 160-laptop.sh 2>> qtiledebug.txt
 sudo ./160-laptop.sh 2>> qtiledebug.txt
