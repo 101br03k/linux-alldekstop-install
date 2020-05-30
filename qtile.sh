@@ -17,8 +17,8 @@ sudo ./120-install-sound.sh 2>> qtiledebug.txt
 sudo ./130-bluetooth.sh 2>> qtiledebug.txt
 sudo ./140-printers.sh 2>> qtiledebug.txt
 yes $password | yes $password | yes $username | ./150-samba.sh 2>> qtiledebug.txt
-sudo 160-laptop.sh 2>> qtiledebug.txt
 sudo ./160-laptop.sh 2>> qtiledebug.txt
+sudo ./170-network-discovery.sh 2>> qtiledebug.txt
 sudo ./200-software-arch-linux.sh 2>> qtiledebug.txt
 sudo ./300-software-arcolinux-3thparty.sh 2>> qtiledebug.txt
 sudo ./400-software-arcolinux-xlarge.sh 2>> qtiledebug.txt
