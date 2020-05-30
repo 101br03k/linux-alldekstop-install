@@ -1,5 +1,6 @@
 # linux easy dekstop install script
 currently not working
+currently working for: gnome, plasma, qtile
 
 install script for all common linux dekstops
 If you want to install all dekstops the easy way
