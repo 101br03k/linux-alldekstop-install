@@ -8,11 +8,11 @@ yes | sudo mirror
 #answers yes to proceed with update
 upall
 
-echo"
+echo -e "\e[1;32m 
 #################################
 ## installation proces started ##
-#################################
-"
+################################# 
+\e[0m"
 
 git clone https://github.com/arcolinuxd/arco-qtile 2>> qtiledebug.txt
 cd arco-qtile
@@ -34,11 +34,11 @@ sudo .700-installing-fonts.sh 2>> qtiledebug.txt
 sudo ./800-conky.sh 2>> qtiledebug.txt
 #runs all the codes you need and puts the terminal answer in a file per code
 
-echo "
+echo -e "\e[1;32m 
 ########################
 ## thx for installing ##
 ########################
-"
+\e[0m"
 
 sudo reboot
 #reboots the system
