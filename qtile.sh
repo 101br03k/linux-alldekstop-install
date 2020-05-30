@@ -1,3 +1,4 @@
+#!/bin/sh -x
 echo what is your username
 read username
 
