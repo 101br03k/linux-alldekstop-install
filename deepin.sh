@@ -1,8 +1,6 @@
 #!/bin/sh -x
 echo "what is your username"
 read username
-echo "what is your password"
-read password
 
 mirror
 yes | update
