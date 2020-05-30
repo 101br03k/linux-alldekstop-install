@@ -1,4 +1,5 @@
-echo what is your username
+#!/bin/sh -x
+echo "what is your username"
 read username
 
 mirror
