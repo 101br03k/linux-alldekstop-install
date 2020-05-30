@@ -8,6 +8,12 @@ yes | sudo mirror
 #answers yes to proceed with update
 upall
 
+echo"
+#################################
+## installation proces started ##
+#################################
+"
+
 git clone https://github.com/arcolinuxd/arco-plasma 2>> plasmadebug.txt
 cd arco-plasma
 
@@ -31,9 +37,11 @@ sudo ./900-fix-microcode-error-v1.sh 2>> plasmadebug.txt
 sudo ./910-fix-mouse-cursor-breeze-snow-v1.sh 2>> plasmadebug.txt
 #runs all the codes you need and puts the terminal answer in a file per code
 
-echo "thx for installing"
-echo "if you read this you are very quick"
-
+echo "
+########################
+## thx for installing ##
+########################
+"
 
 sudo reboot
 #reboots the system
